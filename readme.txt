@@ -1,0 +1,2 @@
+You are required to develop a CRUD (Create – Read – Update – Delete) application in NodeJs using ExpressJS framework in this round. Basically, you will use FreshSales CRM API to create a Contact in FreshSales CRM, Retrieve Contact, Update Contact, Delete Contact. 
+BONUS POINTS for Task1: Create a MySQL database and table called ‘contacts’ and then perform similar Write, Read, Update and Delete operations.
