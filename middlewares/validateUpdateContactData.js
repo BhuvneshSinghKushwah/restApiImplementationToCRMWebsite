@@ -1,5 +1,5 @@
 exports.validateUpdateContactData = (req, res, next) => {
-    const { mobile_number, email, ...otherFields  } = req.body;
+    const { mobile_number, email, data_store, ...otherFields  } = req.body;
 
     if (mobile_number === undefined && email === undefined) {
         return res.status(400).json({ error: 'At least one of mobile_number or email must be provided in the request body' });
@@ -19,7 +19,7 @@ exports.validateUpdateContactData = (req, res, next) => {
         }
     }
 
-    req.body = { mobile_number, email };
+    req.body = { mobile_number, email, data_store };
 
     next();
 }
