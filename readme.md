@@ -1,6 +1,27 @@
 # REST api implementation with all CRUD operations BOTH locally and on a CRM website.
  CRUD (Create – Read – Update – Delete) application in NodeJs using ExpressJS framework in this round. Basically, you will use FreshSales CRM API to create a Contact in FreshSales CRM, Retrieve Contact, Update Contact, Delete Contact. 
 
+# Installation and Cloning
+### Git Clone
+```
+git clone https://github.com/BhuvneshSinghKushwah/restApiImplementationToCRMWebsite.git
+```
+
+### Go into the Directory
+```
+cd restApiImplementationToCRMWebsite
+```
+
+### Install Dependencies via npm
+```
+npm i
+```
+
+### Run production Script {Change port in .env}
+```
+npm run prod
+```
+
 # Here are some pictures of API calls made to this backend application.
 ## Creating Contacts
 ### Creating Contact On CRM server.
@@ -30,24 +51,3 @@
 ### Deleting Contact From local Server.
 <img width="821" alt="Screenshot 2024-01-28 193415" src="https://github.com/BhuvneshSinghKushwah/restApiImplementationToCRMWebsite/assets/74913365/8d79f9e0-c814-402c-88f1-0b4bc218188b">
 
-
-# Installation and Cloning
-### Git Clone
-```
-git clone https://github.com/BhuvneshSinghKushwah/restApiImplementationToCRMWebsite.git
-```
-
-### Go into the Directory
-```
-cd restApiImplementationToCRMWebsite
-```
-
-### Install Dependencies via npm
-```
-npm i
-```
-
-### Run production Script {Change port in .env}
-```
-npm run prod
-```
